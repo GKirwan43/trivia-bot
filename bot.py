@@ -4,6 +4,8 @@ from discord.ext import commands
 import asyncio
 import time
 
+print("Launching")
+
 
 Client = discord.Client() #Initialise Client 
 client = commands.Bot(command_prefix = "?") #Initialise client bot
