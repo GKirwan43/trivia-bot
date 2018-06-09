@@ -1,9 +1,23 @@
+
 {
-    "name": "trivia-helpers-bot",
-    "version": "1.0.0",
-    "main": "bot.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node bot.js"
-    }
+  "name": "trivia-helpers-bot",
+  "version": "1.0.0",
+  "description": "Bot",
+  "main": "bot.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "GKirwan",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
 }
