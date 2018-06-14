@@ -2,14 +2,14 @@
   "name": "trivia-helpers-bot",
   "version": "1.0.0",
   "description": "Bot",
-  "main": "bot.js",
+  "main": "app.js",
   "engines": {
     "node": "8.x",
     "npm": "*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node app.js"
   },
   "keywords": [
     "heroku",
@@ -17,6 +17,7 @@
   ],
   "author": "GKirwan",
   "dependencies": {
-    "discord.js": "^11.3.0"
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^11.3.2"
   }
 }
