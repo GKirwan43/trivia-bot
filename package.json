@@ -13,11 +13,13 @@
   },
   "keywords": [
     "heroku",
-    "discord.js"
+    "discord.js",
+    "mysql"
   ],
   "author": "GKirwan",
   "dependencies": {
     "discord.io": "github:woor/discord.io#gateway_v6",
-    "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2",
+    "mysql"
   }
 }
